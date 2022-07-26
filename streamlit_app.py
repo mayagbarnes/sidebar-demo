@@ -15,7 +15,7 @@ st.sidebar.image(CORGI_IMAGE, caption="Say hi to Kevin! 🐶")
 st.sidebar.slider("Random Slider", min_value=0, max_value=20, value=0, step=1)
 st.sidebar.number_input("Lucky Number", min_value=0, max_value=100, value=7, step=1)
 st.sidebar.color_picker("Pick a Color", value="#464AB3")
-st.sidebar.subheader('Surpise! More corgis 🐶')
+st.sidebar.subheader('Surprise! More corgis 🐶')
 st.sidebar.image(CORGI_IMAGE_2, caption="Another One")
 st.sidebar.image(CORGI_IMAGE_3, caption="Another Other One")
 
